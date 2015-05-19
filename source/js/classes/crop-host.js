@@ -224,7 +224,7 @@ crop.factory('cropHost', ['$document', 'cropAreaCircle', 'cropAreaSquare', 'crop
               ctx.drawImage(newImage, cx, cy);
 
               image=new Image();
-              image.src = canvas.toDataURL("image/png");
+              image.src = canvas.toDataURL(resImgFormat);
             } else {
               image=newImage;
             }
