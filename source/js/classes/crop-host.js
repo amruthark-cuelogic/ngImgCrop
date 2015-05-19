@@ -38,7 +38,7 @@ crop.factory('cropHost', ['$document', 'cropAreaCircle', 'cropAreaSquare', 'crop
     var resImgSize=200;
 
     // Result Image type
-    var resImgFormat='image/png';
+    var resImgFormat=null;
 
     // Result Image quality
     var resImgQuality=null;
